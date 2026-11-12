@@ -51,7 +51,21 @@ The runs need `scikit-learn` in addition. Each script is run from its own folder
 | `code/main/run_controle_C.py` | control on C, two paired arms, R = 50 | about 4 h |
 | `code/supplementary/run_ak_fix.py` | Kriging-only runs, per problem and budget | depends on the problem and budget |
 
-`run_v2.py` writes to a `results` folder next to its own folder; `run_controle_C.py` writes to `results_controle_C` beside the script; the supplementary scripts write to `out/` in the working directory. Seeds are fixed in the scripts (2025).
+`run_v2.py` writes to a `results` folder next to its own folder; `run_controle_C.py` writes to `results_controle_C` beside the script; the supplementary scripts write to `out/` in the working directory.
+
+### What a rerun reproduces
+
+The populations, the designs, the bootstrap resampling and the conditional simulations are drawn from a seeded generator (seed 2025). The restart of the Gaussian-process hyperparameter optimiser in scikit-learn is not seeded. A rerun of a Kriging experiment therefore reproduces its summary figures to within a few percentage points, and not every repetition.
+
+As a check, the truss case was run again with the same seed (`results/supplementary/rerun_ak_truss_N50_s2025.jsonl`): 61 of 100 repetitions were identical, coverage was 59% against 56%, and material upper coverage was 100% in both, with no miss larger than one population point. To repeat the check:
+
+```bash
+cd code/supplementary
+python run_ak_fix.py truss 50 100 2025
+python check_rerun.py truss 50 2025
+```
+
+The support-vector runs have no such unseeded step.
 
 ## Which file supports which result
 
