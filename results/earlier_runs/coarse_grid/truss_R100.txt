@@ -1,0 +1,11 @@
+BENCHMARK FEM — TrussFatigue(d=5)  R=100 N_POOL=40000
+  rodando TrussFatigue(d=5) ...
+    repeticao 100/100
+--------------------------------------------------------------------------------------
+PROBLEMA: TrussFatigue(d=5)
+  Pf(pool N=40000) = 7.6250e-03
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              37%      41%    7.481e-05   -1.450e-05   7.246e-04
+  BSVR-perc           18%      18%    1.852e-03   -3.600e-03   1.170e-01
+  BSVR-BCa            19%      19%    1.842e-03   -3.600e-03   1.110e-01
+  Conformal           99%      99%    2.102e-01   -4.784e-03   2.113e-01

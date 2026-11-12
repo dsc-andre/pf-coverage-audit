@@ -1,0 +1,80 @@
+
+==========================================================================
+CELULA truss N=30 (R=30, 9.7 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              37%      37%    2.688e-04   -9.667e-05   1.168e-03
+  BSVR-perc           87%      87%    4.814e-04   -4.083e-05   6.139e-04
+  BSVR-BCa            67%      67%    9.282e-04   -4.083e-05   1.495e-03
+  Conformal           87%      87%    7.085e-03   +5.083e-05   7.385e-03
+
+==========================================================================
+CELULA d10 N=30 (R=30, 9.5 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS             100%     100%    0.000e+00   +0.000e+00   0.000e+00
+  BSVR-perc          100%     100%    8.204e-05   -7.500e-06   8.204e-05
+  BSVR-BCa            73%      73%    2.064e-04   -7.500e-06   6.311e-04
+  Conformal           83%      83%    8.230e-03   -2.022e-03   2.933e-02
+
+==========================================================================
+CELULA truss N=50 (R=30, 20.2 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              53%      53%    1.043e-04   -2.083e-05   5.709e-04
+  BSVR-perc           87%      87%    5.866e-04   -5.667e-05   9.191e-04
+  BSVR-BCa            37%      43%    4.873e-04   -5.667e-05   2.914e-03
+  Conformal           97%      97%    8.436e-03   -9.083e-05   8.469e-03
+
+==========================================================================
+CELULA d10 N=50 (R=30, 24.6 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS             100%     100%    1.750e-05   +0.000e+00   1.750e-05
+  BSVR-perc           90%      90%    4.573e-03   -5.925e-04   1.807e-02
+  BSVR-BCa            73%      73%    9.750e-04   -5.925e-04   1.723e-02
+  Conformal           97%      97%    3.750e-05   -5.833e-06   7.083e-05
+
+==========================================================================
+CELULA truss N=80 (R=30, 42.3 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              77%      83%    7.323e-04   -1.825e-04   2.415e-02
+  BSVR-perc           70%      70%    5.733e-04   -1.025e-04   1.007e-03
+  BSVR-BCa            33%      40%    5.394e-04   -1.025e-04   3.729e-03
+  Conformal           97%      97%    1.623e-02   -4.667e-05   1.626e-02
+
+==========================================================================
+CELULA d10 N=80 (R=30, 39.1 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS             100%     100%    0.000e+00   +0.000e+00   0.000e+00
+  BSVR-perc          100%     100%    5.675e-05   -8.333e-06   5.675e-05
+  BSVR-BCa            67%      70%    8.487e-05   -8.333e-06   5.846e-04
+  Conformal          100%     100%    3.351e-02   -2.150e-04   3.351e-02
+
+==========================================================================
+CELULA truss N=120 (R=30, 73.9 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              87%      93%    5.031e-04   -1.083e-05   1.697e-02
+  BSVR-perc           63%      63%    3.013e-04   -8.583e-05   7.671e-04
+  BSVR-BCa            43%      43%    2.341e-04   -8.583e-05   2.030e-03
+  Conformal           93%      93%    4.697e-03   +1.250e-05   4.764e-03
+
+==========================================================================
+CELULA d10 N=120 (R=30, 59.5 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              47%     100%    2.936e-03   -2.823e-03   2.541e-01
+  BSVR-perc          100%     100%    3.171e-05   +2.891e-20   3.171e-05
+  BSVR-BCa            63%      70%    5.864e-05   +2.891e-20   6.900e-04
+  Conformal          100%     100%    6.917e-05   -5.000e-06   6.917e-05
+
+==========================================================================
+CELULA truss N=150 (R=30, 94.9 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              87%     100%    1.260e-03   -3.417e-05   7.040e-02
+  BSVR-perc           67%      70%    3.272e-04   -8.417e-05   7.588e-04
+  BSVR-BCa            40%      43%    2.624e-04   -8.417e-05   2.053e-03
+  Conformal           90%      90%    3.980e-03   +8.333e-06   4.080e-03
+
+==========================================================================
+CELULA d10 N=150 (R=30, 78.2 min)
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              23%     100%    3.272e-03   -3.485e-03   4.254e-01
+  BSVR-perc          100%     100%    5.927e-05   -1.417e-05   5.927e-05
+  BSVR-BCa            60%      60%    4.607e-05   -1.417e-05   6.339e-04
+  Conformal          100%     100%    8.167e-05   -1.333e-05   8.167e-05

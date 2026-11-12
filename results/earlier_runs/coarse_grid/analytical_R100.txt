@@ -1,0 +1,54 @@
+BENCHMARK DE COBERTURA — R=100 N_POOL=40000 N_BUDGET=50
+  rodando Linear(b=2.33,d=2) ...
+    repeticao 100/100
+--------------------------------------------------------------------------------------
+PROBLEMA: Linear(b=2.33,d=2)
+  Pf(pool N=40000) = 9.7000e-03 | exata = 9.9031e-03
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS             100%     100%    0.000e+00   +0.000e+00   0.000e+00
+  BSVR-perc           97%      98%    6.873e-04   +1.027e-04   9.063e-04
+  BSVR-BCa            82%      99%    6.897e-04   +1.027e-04   1.575e-03
+  Conformal          100%     100%    4.408e-02   +2.787e-04   4.408e-02
+  rodando Linear(b=3.09,d=2) ...
+    repeticao 100/100
+--------------------------------------------------------------------------------------
+PROBLEMA: Linear(b=3.09,d=2)
+  Pf(pool N=40000) = 9.5000e-04 | exata = 1.0008e-03
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS             100%     100%    1.000e-06   +0.000e+00   1.000e-06
+  BSVR-perc           65%      66%    2.200e-04   -4.875e-05   2.057e-03
+  BSVR-BCa            47%      49%    2.343e-04   -4.875e-05   2.726e-03
+  Conformal          100%     100%    8.218e-03   -2.650e-05   8.218e-03
+  rodando Linear(b=2.5,d=10) ...
+    repeticao 100/100
+--------------------------------------------------------------------------------------
+PROBLEMA: Linear(b=2.5,d=10)
+  Pf(pool N=40000) = 5.5500e-03 | exata = 6.2097e-03
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS             100%     100%    0.000e+00   +0.000e+00   0.000e+00
+  BSVR-perc            0%       0%    9.250e-06   -5.537e-03   2.213e-01
+  BSVR-BCa             0%       0%    7.003e-06   -5.537e-03   2.214e-01
+  Conformal           89%      89%    2.006e-01   -5.539e-03   2.179e-01
+  rodando Sphere(r=3.0,d=2) ...
+    repeticao 100/100
+--------------------------------------------------------------------------------------
+PROBLEMA: Sphere(r=3.0,d=2)
+  Pf(pool N=40000) = 1.0150e-02 | exata = 1.1109e-02
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              90%      91%    2.800e-03   -5.100e-04   3.795e-03
+  BSVR-perc           96%     100%    2.502e-03   +5.750e-05   2.580e-03
+  BSVR-BCa            94%      98%    2.492e-03   +5.750e-05   2.711e-03
+  Conformal          100%     100%    2.832e-02   +2.398e-04   2.832e-02
+  rodando FourBranch(k=6.0) ...
+    repeticao 100/100
+--------------------------------------------------------------------------------------
+PROBLEMA: FourBranch(k=6.0)
+  Pf(pool N=40000) = 4.8500e-03
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  AK-MCS              92%      92%    7.675e-03   -7.403e-04   8.043e-03
+  BSVR-perc           51%      51%    4.700e-03   -1.504e-03   3.253e-02
+  BSVR-BCa            41%      41%    5.077e-03   -1.504e-03   4.633e-02
+  Conformal           99%      99%    6.231e-02   -2.239e-03   6.267e-02
+======================================================================================
+Leitura: cobertura ~91-99% = calibrado (R=100); int.score menor = melhor
+(largura + multa por nao cobrir); cob.sup = limite superior cobre Pf (seguranca).

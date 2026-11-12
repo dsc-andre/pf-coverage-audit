@@ -1,0 +1,52 @@
+
+========================================================================================================
+RESUMO — controle de C (base: C ate 1e5 | wide: C ate 1e7; teto de 200 000 iteracoes nos dois)
+========================================================================================================
+
+Trelica (FE), d=5   Pf(pool) = 7.6250e-03   R = 50
+  metodo     braco   cob.  cob.sup  sup.mat  falhas  mater.  falta med.  falta max  larg.media  larg.med.        vies
+  BSVR-perc  base     66%      66%     100%      17       0        0.4%       0.7%    5.97e-04   1.26e-04   -2.70e-05
+  BSVR-perc  wide     64%      64%     100%      18       0        0.4%       0.7%    5.61e-04   1.50e-04   -1.45e-05
+    pareado (BSVR-perc): wide cobre e base nao em 1 repeticoes; base cobre e wide nao em 2
+  BSVR-BCa   base     48%      50%      98%      25       1        1.0%      12.6%    5.39e-04   1.25e-04   -2.70e-05
+  BSVR-BCa   wide     48%      52%      98%      24       1        0.8%       7.6%    6.12e-04   1.25e-04   -1.45e-05
+    pareado (BSVR-BCa): wide cobre e base nao em 5 repeticoes; base cobre e wide nao em 5
+  Conformal  base     88%      88%     100%       6       0        0.4%       0.7%    9.69e-03   2.97e-03   -5.85e-05
+  Conformal  wide     88%      88%     100%       6       0        0.4%       0.7%    9.35e-03   2.97e-03   -5.85e-05
+    pareado (Conformal): wide cobre e base nao em 0 repeticoes; base cobre e wide nao em 0
+  [base] 2900 ajustes | C escolhido -> 1e+00: 1%, 1e+01: 2%, 1e+02: 6%, 1e+03: 13%, 1e+04: 47%, 1e+05: 31%
+  [base] C no teto da grade: 30.6% (com gamma no piso: 23.7%) | modelo selecionado bateu no teto de iteracoes: 0.2% | 30.6 min
+  [wide] 2900 ajustes | C escolhido -> 1e+00: 1%, 1e+01: 2%, 1e+02: 6%, 1e+03: 13%, 1e+04: 47%, 1e+05: 28%, 1e+06: 3%, 1e+07: 0%
+  [wide] C no teto da grade: 0.0% (com gamma no piso: 0.0%) | modelo selecionado bateu no teto de iteracoes: 0.5% | 36.9 min
+
+Four-branch, d=2   Pf(pool) = 4.5250e-03   R = 50
+  metodo     braco   cob.  cob.sup  sup.mat  falhas  mater.  falta med.  falta max  larg.media  larg.med.        vies
+  BSVR-perc  base     86%      86%      86%       7       7       27.4%      58.0%    9.84e-03   4.75e-03   -1.33e-03
+  BSVR-perc  wide     82%      82%      84%       9       8       37.1%      60.8%    7.34e-03   2.98e-03   -1.37e-03
+    pareado (BSVR-perc): wide cobre e base nao em 4 repeticoes; base cobre e wide nao em 6
+  BSVR-BCa   base     60%      60%      62%      20      19       27.3%      63.5%    1.06e-02   3.84e-03   -1.33e-03
+  BSVR-BCa   wide     58%      58%      64%      21      18       32.4%      64.1%    5.91e-03   2.31e-03   -1.37e-03
+    pareado (BSVR-BCa): wide cobre e base nao em 8 repeticoes; base cobre e wide nao em 9
+  Conformal  base    100%     100%     100%       0       0        0.0%       0.0%    8.65e-02   3.00e-02   -2.04e-03
+  Conformal  wide    100%     100%     100%       0       0        0.0%       0.0%    8.58e-02   2.82e-02   -2.15e-03
+    pareado (Conformal): wide cobre e base nao em 0 repeticoes; base cobre e wide nao em 0
+  [base] 2900 ajustes | C escolhido -> 1e+00: 1%, 1e+01: 38%, 1e+02: 29%, 1e+03: 17%, 1e+04: 8%, 1e+05: 5%
+  [base] C no teto da grade: 5.5% (com gamma no piso: 0.0%) | modelo selecionado bateu no teto de iteracoes: 4.7% | 44.0 min
+  [wide] 2900 ajustes | C escolhido -> 1e+00: 1%, 1e+01: 40%, 1e+02: 31%, 1e+03: 15%, 1e+04: 5%, 1e+05: 5%, 1e+06: 2%, 1e+07: 2%
+  [wide] C no teto da grade: 1.6% (com gamma no piso: 0.0%) | modelo selecionado bateu no teto de iteracoes: 6.0% | 56.6 min
+
+Linear, d=10   Pf(pool) = 6.1500e-03   R = 50
+  metodo     braco   cob.  cob.sup  sup.mat  falhas  mater.  falta med.  falta max  larg.media  larg.med.        vies
+  BSVR-perc  base     94%      94%      96%       3       2       37.8%     100.0%    1.53e-04   2.50e-05   -1.72e-04
+  BSVR-perc  wide     96%      96%      96%       2       2       56.5%     100.0%    1.65e-03   2.56e-05   -2.94e-04
+    pareado (BSVR-perc): wide cobre e base nao em 2 repeticoes; base cobre e wide nao em 1
+  BSVR-BCa   base     92%      92%      98%       4       1       25.4%     100.0%    2.32e-04   5.00e-05   -1.72e-04
+  BSVR-BCa   wide     94%      94%      96%       3       2       63.4%     100.0%    4.17e-04   1.08e-04   -2.94e-04
+    pareado (BSVR-BCa): wide cobre e base nao em 3 repeticoes; base cobre e wide nao em 2
+  Conformal  base    100%     100%     100%       0       0        0.0%       0.0%    4.95e-05   2.50e-05   -1.50e-06
+  Conformal  wide    100%     100%     100%       0       0        0.0%       0.0%    5.05e-05   2.50e-05   -2.00e-06
+    pareado (Conformal): wide cobre e base nao em 0 repeticoes; base cobre e wide nao em 0
+  [base] 2900 ajustes | C escolhido -> 1e+00: 1%, 1e+01: 1%, 1e+02: 1%, 1e+03: 1%, 1e+04: 9%, 1e+05: 87%
+  [base] C no teto da grade: 87.1% (com gamma no piso: 80.9%) | modelo selecionado bateu no teto de iteracoes: 0.0% | 32.1 min
+  [wide] 2900 ajustes | C escolhido -> 1e+00: 1%, 1e+01: 0%, 1e+02: 1%, 1e+03: 2%, 1e+04: 8%, 1e+05: 76%, 1e+06: 12%, 1e+07: 0%
+  [wide] C no teto da grade: 0.1% (com gamma no piso: 0.1%) | modelo selecionado bateu no teto de iteracoes: 0.2% | 35.6 min

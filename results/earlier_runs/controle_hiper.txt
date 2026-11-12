@@ -1,0 +1,24 @@
+  rodando TrussFatigue(d=5) ...
+    repeticao 1/50    repeticao 2/50    repeticao 3/50    repeticao 4/50    repeticao 5/50    repeticao 6/50    repeticao 7/50    repeticao 8/50    repeticao 9/50    repeticao 10/50    repeticao 11/50    repeticao 12/50    repeticao 13/50    repeticao 14/50    repeticao 15/50    repeticao 16/50    repeticao 17/50    repeticao 18/50    repeticao 19/50    repeticao 20/50    repeticao 21/50    repeticao 22/50    repeticao 23/50    repeticao 24/50    repeticao 25/50    repeticao 26/50    repeticao 27/50    repeticao 28/50    repeticao 29/50    repeticao 30/50    repeticao 31/50    repeticao 32/50    repeticao 33/50    repeticao 34/50    repeticao 35/50    repeticao 36/50    repeticao 37/50    repeticao 38/50    repeticao 39/50    repeticao 40/50    repeticao 41/50    repeticao 42/50    repeticao 43/50    repeticao 44/50    repeticao 45/50    repeticao 46/50    repeticao 47/50    repeticao 48/50    repeticao 49/50    repeticao 50/50
+--------------------------------------------------------------------------------------
+PROBLEMA: TrussFatigue(d=5)
+  Pf(pool N=40000) = 7.6250e-03
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  BSVRbase-perc       12%      12%    1.548e-03   -4.413e-03   1.554e-01
+  BSVRbase-BCa        14%      14%    1.471e-03   -4.413e-03   1.488e-01
+  BSVRwide-perc       80%      80%    9.237e-04   -1.775e-04   1.719e-03
+  BSVRwide-BCa        78%      80%    8.445e-04   -1.775e-04   1.619e-03
+  BSVRsign-perc       82%      82%    1.066e-03   -2.465e-04   3.362e-03
+  BSVRsign-BCa        74%      78%    1.036e-03   -2.465e-04   3.668e-03
+  rodando Linear(b=2.5,d=10) ...
+    repeticao 1/50    repeticao 2/50    repeticao 3/50    repeticao 4/50    repeticao 5/50    repeticao 6/50    repeticao 7/50    repeticao 8/50    repeticao 9/50    repeticao 10/50    repeticao 11/50    repeticao 12/50    repeticao 13/50    repeticao 14/50    repeticao 15/50    repeticao 16/50    repeticao 17/50    repeticao 18/50    repeticao 19/50    repeticao 20/50    repeticao 21/50    repeticao 22/50    repeticao 23/50    repeticao 24/50    repeticao 25/50    repeticao 26/50    repeticao 27/50    repeticao 28/50    repeticao 29/50    repeticao 30/50    repeticao 31/50    repeticao 32/50    repeticao 33/50    repeticao 34/50    repeticao 35/50    repeticao 36/50    repeticao 37/50    repeticao 38/50    repeticao 39/50    repeticao 40/50    repeticao 41/50    repeticao 42/50    repeticao 43/50    repeticao 44/50    repeticao 45/50    repeticao 46/50    repeticao 47/50    repeticao 48/50    repeticao 49/50    repeticao 50/50
+--------------------------------------------------------------------------------------
+PROBLEMA: Linear(b=2.5,d=10)
+  Pf(pool N=40000) = 6.1500e-03 | exata = 6.2097e-03
+  metodo        cobertura  cob.sup   larg.media   vies.medio   int.score
+  BSVRbase-perc        0%       0%    1.052e-05   -6.127e-03   2.450e-01
+  BSVRbase-BCa         0%       0%    1.010e-05   -6.127e-03   2.451e-01
+  BSVRwide-perc       76%      76%    8.306e-04   -1.865e-04   2.066e-03
+  BSVRwide-BCa        82%      84%    7.275e-04   -1.865e-04   2.353e-03
+  BSVRsign-perc       78%      78%    8.737e-04   -1.835e-04   2.250e-03
+  BSVRsign-BCa        74%      80%    7.839e-04   -1.835e-04   2.546e-03
